@@ -1,0 +1,36 @@
+@import 'akzidenz.css';
+
+.container {
+  padding-top: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.webpack-logo {
+  margin-left: 8px;
+  width: 39px;
+  height: 39px;
+}
+
+h1 {
+  font-family: 'Akzidenz', sans-serif;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s;
+  filter: blur(0);
+}
